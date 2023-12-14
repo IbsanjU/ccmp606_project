@@ -15,7 +15,7 @@
 		"react-copy-to-clipboard": "^5.1.0",
 		"react-draggable": "^4.4.6",
 		"react-resizable": "^3.0.5",
-		"web3": "^1.9.0"
+		"web3": "^4.3.0"
 	},
 	"scripts": {
 		"start": "react-scripts start",
