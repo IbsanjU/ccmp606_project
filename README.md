@@ -55,5 +55,5 @@ This project is a B2B Retail Management Solution with Smart Contract Integration
    ```bash
    cd frontend-react
    npm i
-   npm start
+   REACT_APP_CONTRACT_ADDRESS=<Contract-Address> npm start
    ```
