@@ -1,0 +1,5 @@
+requests==2.26.0
+web3==5.24.0
+py-alchemy  # Please replace with the correct package name if 'py-alchemy' is incorrect
+python-dotenv==0.19.1
+py-solc-x==0.16.0

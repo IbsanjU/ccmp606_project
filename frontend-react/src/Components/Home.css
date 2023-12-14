@@ -1,0 +1,143 @@
+/* App.css */
+
+.App {
+	font-family: 'Arial', sans-serif;
+	text-align: center;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.connect-message {
+	font-size: 18px;
+	color: #333;
+}
+
+.connect-button {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 15px;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+}
+
+.connect-button:hover {
+	background-color: #45a049;
+}
+
+.account-label {
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+.account-select {
+	font-size: 16px;
+	padding: 8px;
+}
+
+.ApiForm {
+	margin-top: 20px;
+}
+
+.ApiForm label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.ApiForm input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+.ApiForm button {
+	background-color: #008cba;
+	color: white;
+	padding: 10px 15px;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+}
+
+.ApiForm button:hover {
+	background-color: #006080;
+}
+
+.Console {
+	margin-top: 20px;
+}
+
+.Console ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.Console li {
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+/* ----------------------------- */
+
+.function-form {
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.form-label {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.form-select {
+	padding: 8px;
+	margin-bottom: 15px;
+}
+
+.form-section-title {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.form-input {
+	margin-bottom: 15px;
+}
+
+.input-field {
+	padding: 8px;
+}
+
+.submit-button {
+	background-color: #008cba;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+}
+
+.submit-button:hover {
+	background-color: #006080;
+}
+
+.form-option {
+  padding: 10px;
+  font-size: 16px;
+  border-bottom: 2px solid #006080;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.form-option:hover {
+  background-color: #006080;
+  color: #fff;
+}
